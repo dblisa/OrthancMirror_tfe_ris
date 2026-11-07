@@ -1,0 +1,99 @@
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: ris_postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: ris_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ris_db
+
+    ports:
+      - "127.0.0.1:5433:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: ris_pgadmin
+    restart: unless-stopped
+
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+
+    ports:
+      - "127.0.0.1:5050:80"
+
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+    depends_on:
+      - postgres
+
+  orthanc:
+    image: orthancteam/orthanc@sha256:06b8baab0c63cd58de5474a74b64096a82ea3f7eab2aa471e217cc48c9ae11bf
+    container_name: ris_orthanc
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8042:8042"
+      - "4242:4242"
+
+    environment:
+      ORTHANC_PASSWORD: ${ORTHANC_PASSWORD}
+      ORTHANC__WORKLISTS__ENABLE: "true"
+      ORTHANC__WORKLISTS__SAVE_IN_ORTHANC_DATABASE: "true"
+      ORTHANC__PLUGINS: '["/usr/share/orthanc/plugins-available/libOrthancWorklists.so","/usr/share/orthanc/plugins/libOrthancExplorer2.so","/usr/share/orthanc/plugins/libOrthancGdcm.so"]'
+
+    volumes:
+      - ./orthanc-config:/etc/orthanc:ro
+      - ./orthanc-worklists:/var/lib/orthanc/worklists
+      - orthanc_existing_data:/var/lib/orthanc/db
+
+  auth:
+    build:
+      context: .
+      dockerfile: auth/Dockerfile
+    container_name: ris_auth
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ris_db
+      POSTGRES_USER: ris_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SESSION_SECRET: ${SESSION_SECRET}
+
+    depends_on:
+      - postgres
+
+  nginx:
+    image: nginx:alpine
+    container_name: ris_nginx
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8080:80"
+
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+    depends_on:
+      - auth
+      - orthanc
+
+volumes:
+  postgres_data:
+  pgadmin_data:
+
+  orthanc_existing_data:
+    external: true
+    name: 86ca8451b835f7dadd1a9e17143ef0e41ecd5a1420327c5e507e611ffdb3ccf3

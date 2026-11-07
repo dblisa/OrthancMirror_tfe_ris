@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RIS - Connexion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 36px;
+            border-radius: 12px;
+            width: 340px;
+            box-shadow: 0 5px 25px #00000015;
+        }
+        h1 { text-align: center; color: #183b65; }
+        input, button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+        }
+        input { border: 1px solid #ccd5df; }
+        button {
+            background: #2463a6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .error { color: #b42318; }
+        .success { color: #16703c; }
+        a { color: #2463a6; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>RIS</h1>
+        <h2>Connexion</h2>
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if success %}
+            <p class="success">{{ success }}</p>
+        {% endif %}
+
+        <form method="post" action="/login">
+            <input name="username"
+                   placeholder="Nom d'utilisateur"
+                   autocomplete="username"
+                   required>
+
+            <input type="password"
+                   name="password"
+                   placeholder="Mot de passe"
+                   autocomplete="current-password"
+                   required>
+
+            <button type="submit">Se connecter</button>
+        </form>
+
+        <p>Pas encore de compte ?
+            <a href="/register">S'inscrire</a>
+        </p>
+    </div>
+</body>
+</html>

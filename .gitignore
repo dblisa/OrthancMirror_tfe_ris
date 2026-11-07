@@ -1,0 +1,5 @@
+/Build/
+/.vscode/
+/OrthancFramework/Resources/ProtocolBuffers/ThirdPartyDownloads/
+/OrthancServer/ThirdPartyDownloads/
+/OrthancServer/Resources/Testing/Issue32/Java/target/

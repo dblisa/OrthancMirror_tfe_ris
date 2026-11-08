@@ -35,24 +35,24 @@ def get_session_user(request: Request):
     if not isinstance(data, dict):
         return None
 
-    username = data.get("username")
+    email = data.get("email")
 
-    if not isinstance(username, str) or not username:
+    if not isinstance(email, str) or not email:
         return None
 
-    return username
+    return email
 
 
 @app.get("/auth")
 def verify_auth(request: Request):
-    username = get_session_user(request)
+    email = get_session_user(request)
 
-    if username is None:
+    if email is None:
         return Response(status_code=401)
 
     return Response(
         status_code=200,
-        headers={"X-RIS-User": username}
+        headers={"X-RIS-User": email}
     )
 
 
@@ -73,10 +73,10 @@ def login_page(request: Request):
 @app.post("/login")
 def login(
     request: Request,
-    username: str = Form(...),
+    email: str = Form(...),
     password: str = Form(...)
 ):
-    user = authenticate_user(username, password)
+    user = authenticate_user(email, password)
 
     if user is None:
         return templates.TemplateResponse(
@@ -87,20 +87,17 @@ def login(
         )
 
     token = serializer.dumps({
-        "username": user["username"],
+        "email": user["email"],
         "created_at": int(time.time())
     })
 
-    response = RedirectResponse(
-        url="/",
-        status_code=303
-    )
+    response = RedirectResponse(url="/", status_code=303)
 
     response.set_cookie(
         key=COOKIE_NAME,
         value=token,
         httponly=True,
-        secure=False,  # Développement local HTTP uniquement
+        secure=False,
         samesite="lax",
         max_age=SESSION_MAX_AGE,
         path="/"
@@ -118,10 +115,12 @@ def register_page(request: Request):
     )
 
 
+
 @app.post("/register")
 def register(
     request: Request,
-    username: str = Form(...),
+    first_name: str = Form(...),
+    last_name: str = Form(...),
     email: str = Form(...),
     password: str = Form(...),
     confirm_password: str = Form(...)
@@ -135,15 +134,19 @@ def register(
         )
 
     try:
-        create_user(username, email, password)
+        create_user(
+            first_name,
+            last_name,
+            email,
+            password,
+            "requesting_doctor"
+        )
 
     except UniqueViolation:
         return templates.TemplateResponse(
             request=request,
             name="register.html",
-            context={
-                "error": "Nom d'utilisateur ou email déjà utilisé"
-            },
+            context={"error": "Cette adresse e-mail existe déjà"},
             status_code=409
         )
 
@@ -161,6 +164,7 @@ def register(
     )
 
 
+
 @app.get("/logout")
 def logout():
     response = RedirectResponse(
@@ -174,3 +178,19 @@ def logout():
     )
 
     return response
+
+@app.get("/", response_class=HTMLResponse)
+def home(request: Request):
+    email = get_session_user(request)
+
+    if email is None:
+        return RedirectResponse(
+            url="/login",
+            status_code=303
+        )
+
+    return templates.TemplateResponse(
+        request=request,
+        name="dashboard.html",
+        context={"email": email}
+    )

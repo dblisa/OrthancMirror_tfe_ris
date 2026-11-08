@@ -50,27 +50,25 @@
         {% endif %}
 
         <form method="post" action="/register">
-            <input name="username"
-                   placeholder="Nom d'utilisateur"
-                   autocomplete="username"
+            <input name="first_name" 
+                   placeholder="Prénom" 
                    required>
-
-            <input type="email"
-                   name="email"
-                   placeholder="Adresse e-mail"
-                   autocomplete="email"
+            <input name="last_name" 
+                   placeholder="Nom" 
                    required>
-
-            <input type="password"
-                   name="password"
-                   placeholder="Mot de passe (12 caractères minimum)"
-                   minlength="12"
+            <input type="email" 
+                   name="email" 
+                   placeholder="Adresse e-mail" 
+                   required>
+            <input type="password" 
+                   name="password" 
+                   placeholder="Mot de passe (5 caractères minimum)"
+                   minlength="5"
                    autocomplete="new-password"
                    required>
-
-            <input type="password"
-                   name="confirm_password"
-                   placeholder="Confirmer le mot de passe"
+            <input type="password" 
+                   name="confirm_password" 
+                   placeholder="Confirmer le mot de passe" 
                    autocomplete="new-password"
                    required>
 

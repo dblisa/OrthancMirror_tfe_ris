@@ -1,5 +1,5 @@
 import os
-import psycopg2
+import psycopg
 from dotenv import load_dotenv
 
 from datetime import date
@@ -11,11 +11,12 @@ from psycopg.errors import UniqueViolation
 load_dotenv()
 
 def get_connection():
-    return psycopg2.connect(
-        dbname="ris_db",
-        user="loris",
-        host="localhost",
-        port="5432"
+    return psycopg.connect(
+        host=os.getenv("POSTGRES_HOST"),
+        port=os.getenv("POSTGRES_PORT"),
+        dbname=os.getenv("POSTGRES_DB"),
+        user=os.getenv("POSTGRES_USER"),
+        password=os.environ["POSTGRES_PASSWORD"]
     )
 
 

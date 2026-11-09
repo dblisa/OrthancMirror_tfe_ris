@@ -45,6 +45,21 @@ def create_patient(last_name, first_name, birth_date=None, sex=None):
             )
             return cur.fetchone()[0]
 
+def deactivate_user(email):
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE users
+                SET is_active = FALSE
+                WHERE email = %s
+                AND is_active = TRUE
+                """,
+                (email,)
+            )
+
+            return cur.rowcount > 0
+
 
 def create_appointment(exam_request_id, resource_id, start_time, end_time, created_by):    
     #sécurité (regarde si le start time est bien avant le end time)
@@ -274,6 +289,26 @@ def create_user(first_name, last_name, email, password, role_name):
             )
 
             return user_id
+
+#fct qui récupere tous les roles de l'user
+def get_user_roles(email):
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT r.name
+                FROM users u
+                JOIN user_roles ur ON u.id = ur.user_id
+                JOIN roles r ON ur.role_id = r.id
+                WHERE u.email = %s
+                AND u.is_active = TRUE
+                """,
+                (email,)
+            )
+
+            roles = cur.fetchall()
+
+    return [role[0] for role in roles]
 
 
 if __name__ == "__main__":

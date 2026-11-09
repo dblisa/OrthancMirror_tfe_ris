@@ -1,4 +1,4 @@
-#RIS — Installation et démarrage
+# RIS — Installation et démarrage
 
 ## 1. Prérequis
 
@@ -74,7 +74,7 @@ Depuis la racine du projet RIS :
 psql -U postgres -d ris_db -f schema.sql
 ```
 
-Cette commande crée les tables nécessaires au fonctionnement du RIS :
+Cette commande crée les tables du RIS :
 - patients
 - users
 - roles

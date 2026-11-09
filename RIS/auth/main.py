@@ -8,8 +8,12 @@ from fastapi.templating import Jinja2Templates
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from psycopg.errors import UniqueViolation
 
-from database.postgres_db import authenticate_user, create_user
-
+from database.postgres_db import (
+    authenticate_user,
+    create_user,
+    deactivate_user,
+    get_user_roles
+)
 
 app = FastAPI()
 templates = Jinja2Templates(directory="auth/templates")
@@ -42,6 +46,27 @@ def get_session_user(request: Request):
 
     return email
 
+#fct qui vérifie si l'user est bien admin 
+def require_admin(request: Request):
+    email = get_session_user(request)
+
+    #verifie que l'user est connecté si pas redirige vers login !
+    if email is None:
+        return RedirectResponse(
+            url="/login",
+            status_code=303
+        )
+
+    roles = get_user_roles(email)
+
+    # Vérifier le rôle administrateur
+    if "administrator" not in roles:
+        return HTMLResponse(
+            content="403 - Accès interdit : administrateur uniquement",
+            status_code=403
+        )
+
+    return email
 
 @app.get("/auth")
 def verify_auth(request: Request):
@@ -91,20 +116,27 @@ def login(
         "created_at": int(time.time())
     })
 
-    response = RedirectResponse(url="/", status_code=303)
+    roles = get_user_roles(user["email"])
+
+    if "administrator" in roles:
+        redirect_url = "/admin"
+    else:
+        redirect_url = "/"
+    
+    response = RedirectResponse(url=redirect_url, status_code=303)
 
     response.set_cookie(
-        key=COOKIE_NAME,
-        value=token,
-        httponly=True,
-        secure=False,
-        samesite="lax",
-        max_age=SESSION_MAX_AGE,
-        path="/"
-    )
-
+            key=COOKIE_NAME,
+            value=token,
+            httponly=True,
+            secure=False,
+            samesite="lax",
+            max_age=SESSION_MAX_AGE,
+            path="/"
+        )
+    
     return response
-
+        
 
 @app.get("/register", response_class=HTMLResponse)
 def register_page(request: Request):
@@ -179,6 +211,41 @@ def logout():
 
     return response
 
+@app.post("/delete")
+def delete(request: Request):
+    email = get_session_user(request)
+
+    if email is None:
+        return RedirectResponse(
+            url="/login",
+            status_code=303
+        )
+
+    deactivate_user(email)
+
+    return RedirectResponse(
+        url="/logout",
+        status_code=303
+    )
+
+@app.get("/admin", response_class=HTMLResponse)
+def admin_dashboard(request: Request):
+
+    access = require_admin(request)
+
+    # Si accès refusé retourner réponse
+    if not isinstance(access, str):
+        return access
+
+    return HTMLResponse(
+        content=f"""
+        <h1>Administration du RIS</h1>
+        <p>Bienvenue, {access}</p>
+        <p>Accès administrateur autorisé.</p>
+        <a href="/">Retour au tableau de bord</a>
+        """
+    )
+
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
     email = get_session_user(request)
@@ -189,8 +256,13 @@ def home(request: Request):
             status_code=303
         )
 
+    roles = get_user_roles(email)
+
+
     return templates.TemplateResponse(
         request=request,
         name="dashboard.html",
-        context={"email": email}
+        context={"email" : email,
+                 "roles" : roles
+                 }
     )

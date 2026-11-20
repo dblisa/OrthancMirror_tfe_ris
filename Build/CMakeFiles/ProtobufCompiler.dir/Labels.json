@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/ProtobufCompiler"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/ProtobufCompiler.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/ProtobufCompiler-complete.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-build.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-configure.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-download.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-install.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-mkdir.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-patch.rule"
+		},
+		{
+			"file" : "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-prefix/src/ProtobufCompiler-stamp/ProtobufCompiler-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ProtobufCompiler"
+		],
+		"name" : "ProtobufCompiler"
+	}
+}

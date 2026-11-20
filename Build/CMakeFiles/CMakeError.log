@@ -1,0 +1,511 @@
+Determining if the _vsnprintf_s exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fc188/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_fc188.dir/build.make CMakeFiles/cmTC_fc188.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_fc188.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_fc188.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘_vsnprintf_s’ was not declared in this scope; did you mean ‘vsnprintf’?
+   30 | _vsnprintf_s;return 0;
+      | ^~~~~~~~~~~~
+      | vsnprintf
+gmake[1]: *** [CMakeFiles/cmTC_fc188.dir/build.make:78 : CMakeFiles/cmTC_fc188.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_fc188/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+_vsnprintf_s;return 0;
+}
+
+Determining if the vfprintf_s exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5889c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_5889c.dir/build.make CMakeFiles/cmTC_5889c.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_5889c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_5889c.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘vfprintf_s’ was not declared in this scope; did you mean ‘vfprintf’?
+   30 | vfprintf_s;return 0;
+      | ^~~~~~~~~~
+      | vfprintf
+gmake[1]: *** [CMakeFiles/cmTC_5889c.dir/build.make:78 : CMakeFiles/cmTC_5889c.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_5889c/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+vfprintf_s;return 0;
+}
+
+Determining if the vsprintf_s exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a098/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_4a098.dir/build.make CMakeFiles/cmTC_4a098.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_4a098.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_4a098.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘vsprintf_s’ was not declared in this scope; did you mean ‘vsprintf’?
+   30 | vsprintf_s;return 0;
+      | ^~~~~~~~~~
+      | vsprintf
+gmake[1]: *** [CMakeFiles/cmTC_4a098.dir/build.make:78 : CMakeFiles/cmTC_4a098.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_4a098/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+vsprintf_s;return 0;
+}
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd6b5/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_dd6b5.dir/build.make CMakeFiles/cmTC_dd6b5.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_dd6b5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_dd6b5.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘_stricmp’ was not declared in this scope; did you mean ‘strncmp’?
+   30 | _stricmp;return 0;
+      | ^~~~~~~~
+      | strncmp
+gmake[1]: *** [CMakeFiles/cmTC_dd6b5.dir/build.make:78 : CMakeFiles/cmTC_dd6b5.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_dd6b5/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+_stricmp;return 0;
+}
+
+Determining if the InterlockedIncrement((long*)0) exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2b59/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f2b59.dir/build.make CMakeFiles/cmTC_f2b59.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f2b59.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_f2b59.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘InterlockedIncrement’ was not declared in this scope
+   30 | InterlockedIncrement((long*)0);return 0;
+      | ^~~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_f2b59.dir/build.make:78 : CMakeFiles/cmTC_f2b59.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_f2b59/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+InterlockedIncrement((long*)0);return 0;
+}
+
+Determining if the InterlockedDecrement((long*)0) exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca5c7/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_ca5c7.dir/build.make CMakeFiles/cmTC_ca5c7.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_ca5c7.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_ca5c7.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘InterlockedDecrement’ was not declared in this scope
+   30 | InterlockedDecrement((long*)0);return 0;
+      | ^~~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_ca5c7.dir/build.make:78 : CMakeFiles/cmTC_ca5c7.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_ca5c7/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+InterlockedDecrement((long*)0);return 0;
+}
+
+Determining if the readdir_r((DIR*)0,(dirent*)0) exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35446/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_35446.dir/build.make CMakeFiles/cmTC_35446.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_35446.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_35446.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+   30 | readdir_r((DIR*)0,(dirent*)0);return 0;
+      | ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:24:
+/usr/include/dirent.h:185:12: note: declared here
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+   30 | readdir_r((DIR*)0,(dirent*)0);return 0;
+      | ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/usr/include/dirent.h:185:12: note: declared here
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: error: too few arguments to function ‘int readdir_r(DIR*, dirent*, dirent**)’
+   30 | readdir_r((DIR*)0,(dirent*)0);return 0;
+      | ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/usr/include/dirent.h:185:12: note: declared here
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_35446.dir/build.make:78 : CMakeFiles/cmTC_35446.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_35446/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+readdir_r((DIR*)0,(dirent*)0);return 0;
+}
+
+Determining if the TryAcquireSRWLockShared((PSRWLOCK)0) exist failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3ff9/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_c3ff9.dir/build.make CMakeFiles/cmTC_c3ff9.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_c3ff9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_c3ff9.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:26: error: ‘PSRWLOCK’ was not declared in this scope
+   30 | TryAcquireSRWLockShared((PSRWLOCK)0);return 0;
+      |                          ^~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: error: ‘TryAcquireSRWLockShared’ was not declared in this scope
+   30 | TryAcquireSRWLockShared((PSRWLOCK)0);return 0;
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_c3ff9.dir/build.make:78 : CMakeFiles/cmTC_c3ff9.dir/CheckSymbolExists.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_c3ff9/fast] Erreur 2
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+TryAcquireSRWLockShared((PSRWLOCK)0);return 0;
+}
+
+strerror_r returns an int failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2bbf/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_e2bbf.dir/build.make CMakeFiles/cmTC_e2bbf.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_e2bbf.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_e2bbf.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:6:23: error: invalid conversion from ‘char*’ to ‘int’ [-fpermissive]
+    6 |     int i = strerror_r(0, buf, 100);
+      |             ~~~~~~~~~~^~~~~~~~~~~~~
+      |                       |
+      |                       char*
+gmake[1]: *** [CMakeFiles/cmTC_e2bbf.dir/build.make:78 : CMakeFiles/cmTC_e2bbf.dir/src.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_e2bbf/fast] Erreur 2
+
+
+__declspec(align) is supported failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80cd4/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_80cd4.dir/build.make CMakeFiles/cmTC_80cd4.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_80cd4.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_80cd4.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:3:16: error: ‘align’ was not declared in this scope
+    3 |     __declspec(align(4)) char c[16];
+      |                ^~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:3:5: error: ‘__declspec’ was not declared in this scope
+    3 |     __declspec(align(4)) char c[16];
+      |     ^~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_80cd4.dir/build.make:78 : CMakeFiles/cmTC_80cd4.dir/src.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_80cd4/fast] Erreur 2
+
+
+the compiler supports __declspec(deprecated) failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9b17/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_b9b17.dir/build.make CMakeFiles/cmTC_b9b17.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_b9b17.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_b9b17.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    1 | __declspec(deprecated) int main(){return 0;}
+      |           ^
+gmake[1]: *** [CMakeFiles/cmTC_b9b17.dir/build.make:78 : CMakeFiles/cmTC_b9b17.dir/src.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_b9b17/fast] Erreur 2
+
+
+the compiler supports __declspec(deprecated("message")) failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f086d/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f086d.dir/build.make CMakeFiles/cmTC_f086d.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f086d.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_f086d.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    1 | __declspec(deprecated("message")) int main(){return 0;}
+      |           ^
+gmake[1]: *** [CMakeFiles/cmTC_f086d.dir/build.make:78 : CMakeFiles/cmTC_f086d.dir/src.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_f086d/fast] Erreur 2
+
+
+pw_gecos is #defined to pw_passwd failed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1f99/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_b1f99.dir/build.make CMakeFiles/cmTC_b1f99.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_b1f99.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_b1f99.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:5:9: error: ‘pw_gecos’ is not a member of ‘main()::S’
+    5 |     &S::pw_gecos;
+      |         ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_b1f99.dir/build.make:78 : CMakeFiles/cmTC_b1f99.dir/src.cxx.o] Erreur 1
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:127 : cmTC_b1f99/fast] Erreur 2
+
+

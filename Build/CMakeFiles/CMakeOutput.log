@@ -1,0 +1,1703 @@
+Determining if the flock exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e72f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_9e72f.dir/build.make CMakeFiles/cmTC_9e72f.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_9e72f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_9e72f.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘flock’ [-Waddress]
+   30 | flock;return 0;
+      | ^~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_9e72f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e72f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_9e72f.dir/CheckSymbolExists.cxx.o -o cmTC_9e72f 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+flock;return 0;
+}
+
+Determining if the gethostbyname_r exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5cd9/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_e5cd9.dir/build.make CMakeFiles/cmTC_e5cd9.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_e5cd9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_e5cd9.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘gethostbyname_r’ [-Waddress]
+   30 | gethostbyname_r;return 0;
+      | ^~~~~~~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_e5cd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5cd9.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_e5cd9.dir/CheckSymbolExists.cxx.o -o cmTC_e5cd9 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+gethostbyname_r;return 0;
+}
+
+Determining if the gethostbyaddr_r exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4151c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_4151c.dir/build.make CMakeFiles/cmTC_4151c.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_4151c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_4151c.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘gethostbyaddr_r’ [-Waddress]
+   30 | gethostbyaddr_r;return 0;
+      | ^~~~~~~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_4151c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4151c.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_4151c.dir/CheckSymbolExists.cxx.o -o cmTC_4151c 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+gethostbyaddr_r;return 0;
+}
+
+Determining if the gethostid exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_73816/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_73816.dir/build.make CMakeFiles/cmTC_73816.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_73816.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_73816.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘gethostid’ [-Waddress]
+   30 | gethostid;return 0;
+      | ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_73816
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73816.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_73816.dir/CheckSymbolExists.cxx.o -o cmTC_73816 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+gethostid;return 0;
+}
+
+Determining if the waitpid exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6a78/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_d6a78.dir/build.make CMakeFiles/cmTC_d6a78.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_d6a78.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_d6a78.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘waitpid’ [-Waddress]
+   30 | waitpid;return 0;
+      | ^~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_d6a78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a78.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_d6a78.dir/CheckSymbolExists.cxx.o -o cmTC_d6a78 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+waitpid;return 0;
+}
+
+Determining if the usleep exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9e19/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_c9e19.dir/build.make CMakeFiles/cmTC_c9e19.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_c9e19.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_c9e19.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘usleep’ [-Waddress]
+   30 | usleep;return 0;
+      | ^~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_c9e19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9e19.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_c9e19.dir/CheckSymbolExists.cxx.o -o cmTC_c9e19 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+usleep;return 0;
+}
+
+Determining if the std::vsnprintf exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d30e8/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_d30e8.dir/build.make CMakeFiles/cmTC_d30e8.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_d30e8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_d30e8.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:11:6: warning: statement is a reference, not call, to function ‘vsnprintf’ [-Waddress]
+   11 | std::vsnprintf;return 0;
+      | ~~~~~^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:11:6: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_d30e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d30e8.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_d30e8.dir/CheckSymbolExists.cxx.o -o cmTC_d30e8 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <cmath>
+#include <cstdio>
+#include <cstdarg>
+#include <cstddef>
+#include <iostream>
+#include <cstdint>
+
+int main()
+{
+std::vsnprintf;return 0;
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53db4/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_53db4.dir/build.make CMakeFiles/cmTC_53db4.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_53db4.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_53db4.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘gettimeofday’ [-Waddress]
+   30 | gettimeofday;return 0;
+      | ^~~~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_53db4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53db4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_53db4.dir/CheckSymbolExists.cxx.o -o cmTC_53db4 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+gettimeofday;return 0;
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0578/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a0578.dir/build.make CMakeFiles/cmTC_a0578.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_a0578.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_a0578.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘strcasecmp’ [-Waddress]
+   30 | strcasecmp;return 0;
+      | ^~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_a0578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0578.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_a0578.dir/CheckSymbolExists.cxx.o -o cmTC_a0578 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+strcasecmp;return 0;
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eb20c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_eb20c.dir/build.make CMakeFiles/cmTC_eb20c.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_eb20c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_eb20c.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘strncasecmp’ [-Waddress]
+   30 | strncasecmp;return 0;
+      | ^~~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_eb20c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb20c.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_eb20c.dir/CheckSymbolExists.cxx.o -o cmTC_eb20c 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+strncasecmp;return 0;
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2cafb/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_2cafb.dir/build.make CMakeFiles/cmTC_2cafb.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_2cafb.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_2cafb.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘strerror_r’ [-Waddress]
+   30 | strerror_r;return 0;
+      | ^~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_2cafb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cafb.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_2cafb.dir/CheckSymbolExists.cxx.o -o cmTC_2cafb 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+strerror_r;return 0;
+}
+
+Determining if the SYS_gettid exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3dff3/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_3dff3.dir/build.make CMakeFiles/cmTC_3dff3.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_3dff3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_3dff3.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3dff3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dff3.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_3dff3.dir/CheckSymbolExists.cxx.o -o cmTC_3dff3 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+SYS_gettid;return 0;
+}
+
+Determining if the pthread_rwlock_init exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e89a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_3e89a.dir/build.make CMakeFiles/cmTC_3e89a.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_3e89a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_3e89a.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘pthread_rwlock_init’ [-Waddress]
+   30 | pthread_rwlock_init;return 0;
+      | ^~~~~~~~~~~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_3e89a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e89a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_3e89a.dir/CheckSymbolExists.cxx.o -o cmTC_3e89a 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+pthread_rwlock_init;return 0;
+}
+
+Determining if the __sync_add_and_fetch((int*)0,0) exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3ece/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_b3ece.dir/build.make CMakeFiles/cmTC_b3ece.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_b3ece.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_b3ece.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_b3ece
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ece.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_b3ece.dir/CheckSymbolExists.cxx.o -o cmTC_b3ece 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+__sync_add_and_fetch((int*)0,0);return 0;
+}
+
+Determining if the __sync_sub_and_fetch((int*)0,0) exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0a64a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_0a64a.dir/build.make CMakeFiles/cmTC_0a64a.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_0a64a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_0a64a.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_0a64a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a64a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_0a64a.dir/CheckSymbolExists.cxx.o -o cmTC_0a64a 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+__sync_sub_and_fetch((int*)0,0);return 0;
+}
+
+Determining if the getgrnam_r((char*)0,(group*)0,(char*)0,0,(group**)0) exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b146/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_3b146.dir/build.make CMakeFiles/cmTC_3b146.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_3b146.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_3b146.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3b146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b146.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_3b146.dir/CheckSymbolExists.cxx.o -o cmTC_3b146 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+getgrnam_r((char*)0,(group*)0,(char*)0,0,(group**)0);return 0;
+}
+
+Determining if the getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0) exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f605d/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f605d.dir/build.make CMakeFiles/cmTC_f605d.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:12: warning: argument 1 null where non-null expected [-Wnonnull]
+   30 | getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0);return 0;
+      |            ^~~~~~~~
+In file included from /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:23:
+/usr/include/pwd.h:153:12: note: in a call to function ‘int getpwnam_r(const char*, passwd*, char*, size_t, passwd**)’ declared ‘nonnull’
+  153 | extern int getpwnam_r (const char *__restrict __name,
+      |            ^~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:21: warning: argument 2 null where non-null expected [-Wnonnull]
+   30 | getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0);return 0;
+      |                     ^~~~~~~~~~
+/usr/include/pwd.h:153:12: note: in a call to function ‘int getpwnam_r(const char*, passwd*, char*, size_t, passwd**)’ declared ‘nonnull’
+  153 | extern int getpwnam_r (const char *__restrict __name,
+      |            ^~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:32: warning: argument 3 null where non-null expected [-Wnonnull]
+   30 | getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0);return 0;
+      |                                ^~~~~~~~
+/usr/include/pwd.h:153:12: note: in a call to function ‘int getpwnam_r(const char*, passwd*, char*, size_t, passwd**)’ declared ‘nonnull’
+  153 | extern int getpwnam_r (const char *__restrict __name,
+      |            ^~~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:43: warning: argument 5 null where non-null expected [-Wnonnull]
+   30 | getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0);return 0;
+      |                                           ^~~~~~~~~~~
+/usr/include/pwd.h:153:12: note: in a call to function ‘int getpwnam_r(const char*, passwd*, char*, size_t, passwd**)’ declared ‘nonnull’
+  153 | extern int getpwnam_r (const char *__restrict __name,
+      |            ^~~~~~~~~~
+Linking CXX executable cmTC_f605d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f605d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.cxx.o -o cmTC_f605d 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+getpwnam_r((char*)0,(passwd*)0,(char*)0,0,(passwd**)0);return 0;
+}
+
+Determining if the readdir_r((DIR*)0,(dirent*)0,(dirent**)0) exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1944/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f1944.dir/build.make CMakeFiles/cmTC_f1944.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f1944.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_f1944.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:11: warning: argument 1 null where non-null expected [-Wnonnull]
+   30 | readdir_r((DIR*)0,(dirent*)0,(dirent**)0);return 0;
+      |           ^~~~~~~
+In file included from /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:24:
+/usr/include/dirent.h:185:12: note: in a call to function ‘int readdir_r(DIR*, dirent*, dirent**)’ declared ‘nonnull’
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:19: warning: argument 2 null where non-null expected [-Wnonnull]
+   30 | readdir_r((DIR*)0,(dirent*)0,(dirent**)0);return 0;
+      |                   ^~~~~~~~~~
+/usr/include/dirent.h:185:12: note: in a call to function ‘int readdir_r(DIR*, dirent*, dirent**)’ declared ‘nonnull’
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:30: warning: argument 3 null where non-null expected [-Wnonnull]
+   30 | readdir_r((DIR*)0,(dirent*)0,(dirent**)0);return 0;
+      |                              ^~~~~~~~~~~
+/usr/include/dirent.h:185:12: note: in a call to function ‘int readdir_r(DIR*, dirent*, dirent**)’ declared ‘nonnull’
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+   30 | readdir_r((DIR*)0,(dirent*)0,(dirent**)0);return 0;
+      | ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/dirent.h:185:12: note: declared here
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+Linking CXX executable cmTC_f1944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1944.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_f1944.dir/CheckSymbolExists.cxx.o -o cmTC_f1944 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+readdir_r((DIR*)0,(dirent*)0,(dirent**)0);return 0;
+}
+
+Determining if the &passwd::pw_gecos exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55a8a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_55a8a.dir/build.make CMakeFiles/cmTC_55a8a.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_55a8a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_55a8a.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+   30 | &passwd::pw_gecos;return 0;
+      | ^~~~~~~~~~~~~~~~~
+Linking CXX executable cmTC_55a8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a8a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_55a8a.dir/CheckSymbolExists.cxx.o -o cmTC_55a8a 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+&passwd::pw_gecos;return 0;
+}
+
+Determining if the long long definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d04a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_9d04a.dir/build.make CMakeFiles/cmTC_9d04a.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_9d04a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_9d04a.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:11: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | long long definition;return 0;
+      |           ^~~~~~~~~~
+Linking CXX executable cmTC_9d04a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d04a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_9d04a.dir/CheckSymbolExists.cxx.o -o cmTC_9d04a 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+long long definition;return 0;
+}
+
+Determining if the unsigned long long definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85042/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_85042.dir/build.make CMakeFiles/cmTC_85042.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_85042.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_85042.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:20: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | unsigned long long definition;return 0;
+      |                    ^~~~~~~~~~
+Linking CXX executable cmTC_85042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85042.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_85042.dir/CheckSymbolExists.cxx.o -o cmTC_85042 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+unsigned long long definition;return 0;
+}
+
+Determining if the int64_t definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_284d9/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_284d9.dir/build.make CMakeFiles/cmTC_284d9.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_284d9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_284d9.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:9: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | int64_t definition;return 0;
+      |         ^~~~~~~~~~
+Linking CXX executable cmTC_284d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_284d9.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_284d9.dir/CheckSymbolExists.cxx.o -o cmTC_284d9 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+int64_t definition;return 0;
+}
+
+Determining if the uint64_t definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_668d6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_668d6.dir/build.make CMakeFiles/cmTC_668d6.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_668d6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_668d6.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | uint64_t definition;return 0;
+      |          ^~~~~~~~~~
+Linking CXX executable cmTC_668d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_668d6.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_668d6.dir/CheckSymbolExists.cxx.o -o cmTC_668d6 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+uint64_t definition;return 0;
+}
+
+Determining if the char16_t definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46db1/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_46db1.dir/build.make CMakeFiles/cmTC_46db1.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_46db1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_46db1.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | char16_t definition;return 0;
+      |          ^~~~~~~~~~
+Linking CXX executable cmTC_46db1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46db1.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_46db1.dir/CheckSymbolExists.cxx.o -o cmTC_46db1 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+char16_t definition;return 0;
+}
+
+Determining if the fpos64_t definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7d85/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a7d85.dir/build.make CMakeFiles/cmTC_a7d85.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_a7d85.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_a7d85.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:10: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | fpos64_t definition;return 0;
+      |          ^~~~~~~~~~
+Linking CXX executable cmTC_a7d85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d85.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_a7d85.dir/CheckSymbolExists.cxx.o -o cmTC_a7d85 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+fpos64_t definition;return 0;
+}
+
+Determining if the off64_t definition exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_89a73/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_89a73.dir/build.make CMakeFiles/cmTC_89a73.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_89a73.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_89a73.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:9: warning: unused variable ‘definition’ [-Wunused-variable]
+   30 | off64_t definition;return 0;
+      |         ^~~~~~~~~~
+Linking CXX executable cmTC_89a73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a73.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_89a73.dir/CheckSymbolExists.cxx.o -o cmTC_89a73 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+off64_t definition;return 0;
+}
+
+Determining if the popen exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b09f6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_b09f6.dir/build.make CMakeFiles/cmTC_b09f6.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_b09f6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_b09f6.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘popen’ [-Waddress]
+   30 | popen;return 0;
+      | ^~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_b09f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b09f6.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_b09f6.dir/CheckSymbolExists.cxx.o -o cmTC_b09f6 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+popen;return 0;
+}
+
+Determining if the pclose exist passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7d3dd/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_7d3dd.dir/build.make CMakeFiles/cmTC_7d3dd.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_7d3dd.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/curl-8.17.0/include -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_7d3dd.dir/CheckSymbolExists.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement is a reference, not call, to function ‘pclose’ [-Waddress]
+   30 | pclose;return 0;
+      | ^~~~~~
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.cxx:30:1: warning: statement has no effect [-Wunused-value]
+Linking CXX executable cmTC_7d3dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d3dd.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_7d3dd.dir/CheckSymbolExists.cxx.o -o cmTC_7d3dd 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+File /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/timeb.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+#include <grp.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/syscall.h>
+#include <fenv.h>
+
+int main()
+{
+pclose;return 0;
+}
+
+char is signed passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fcf93/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_fcf93.dir/build.make CMakeFiles/cmTC_fcf93.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_fcf93.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_fcf93.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:4:9: warning: unused variable ‘unused_array’ [-Wunused-variable]
+    4 |   char *unused_array[((char)-1<0)?1:-1];
+      |         ^~~~~~~~~~~~
+Linking CXX executable cmTC_fcf93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcf93.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_fcf93.dir/src.cxx.o -o cmTC_fcf93 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+pthread_t is an integer type passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d377/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_9d377.dir/build.make CMakeFiles/cmTC_9d377.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_9d377.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_9d377.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:8:17: warning: unused variable ‘l’ [-Wunused-variable]
+    8 |   unsigned long l = p;
+      |                 ^
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:8:17: warning: ‘p’ is used uninitialized [-Wuninitialized]
+    8 |   unsigned long l = p;
+      |                 ^
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:7:13: note: ‘p’ was declared here
+    7 |   pthread_t p;
+      |             ^
+Linking CXX executable cmTC_9d377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d377.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_9d377.dir/src.cxx.o -o cmTC_9d377 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+ENAMETOOLONG is defined passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3a8c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a3a8c.dir/build.make CMakeFiles/cmTC_a3a8c.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_a3a8c.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_a3a8c.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:5:9: warning: unused variable ‘value’ [-Wunused-variable]
+    5 |     int value = ENAMETOOLONG;
+      |         ^~~~~
+Linking CXX executable cmTC_a3a8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a8c.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_a3a8c.dir/src.cxx.o -o cmTC_a3a8c 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+variable length arrays are supported passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35625/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_35625.dir/build.make CMakeFiles/cmTC_35625.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_35625.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_35625.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:4:9: warning: unused variable ‘foo’ [-Wunused-variable]
+    4 |     int foo[n];
+      |         ^~~
+Linking CXX executable cmTC_35625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35625.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_35625.dir/src.cxx.o -o cmTC_35625 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+compiling "/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/dcmtk-3.7.1/config/tests/lfs64.cc" succeeded with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12e6f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_12e6f.dir/build.make CMakeFiles/cmTC_12e6f.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_12e6f.dir/lfs64.cc.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_12e6f.dir/lfs64.cc.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/dcmtk-3.7.1/config/tests/lfs64.cc
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/dcmtk-3.7.1/config/tests/lfs64.cc: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/dcmtk-3.7.1/config/tests/lfs64.cc:27:9: warning: unused variable ‘f’ [-Wunused-variable]
+   27 |   FILE *f = fopen64("name", "r");
+      |         ^
+Linking CXX executable cmTC_12e6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12e6f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_12e6f.dir/lfs64.cc.o -o cmTC_12e6f 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+__alignof__ is supported passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02012/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_02012.dir/build.make CMakeFiles/cmTC_02012.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_02012.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_02012.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:3:10: warning: unused variable ‘c’ [-Wunused-variable]
+    3 |     char c[__alignof__(int)];
+      |          ^
+Linking CXX executable cmTC_02012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02012.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_02012.dir/src.cxx.o -o cmTC_02012 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+__alignof is supported passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2c7b/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_e2c7b.dir/build.make CMakeFiles/cmTC_e2c7b.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_e2c7b.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_e2c7b.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:3:10: warning: unused variable ‘c’ [-Wunused-variable]
+    3 |     char c[__alignof(int)];
+      |          ^
+Linking CXX executable cmTC_e2c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c7b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_e2c7b.dir/src.cxx.o -o cmTC_e2c7b 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+__attribute__((aligned)) is supported passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a434a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a434a.dir/build.make CMakeFiles/cmTC_a434a.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_a434a.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_a434a.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:3:38: warning: unused variable ‘c’ [-Wunused-variable]
+    3 |     __attribute__((aligned(4))) char c[16];
+      |                                      ^
+Linking CXX executable cmTC_a434a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a434a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_a434a.dir/src.cxx.o -o cmTC_a434a 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+__attribute__((aligned)) supports templates passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4143/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f4143.dir/build.make CMakeFiles/cmTC_f4143.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f4143.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_f4143.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx:5:22: warning: unused variable ‘i’ [-Wunused-variable]
+    5 |     test<char>::type i;
+      |                      ^
+Linking CXX executable cmTC_f4143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4143.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_f4143.dir/src.cxx.o -o cmTC_f4143 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports default constructor detection via SFINAE passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3d04f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_3d04f.dir/build.make CMakeFiles/cmTC_3d04f.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_3d04f.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_3d04f.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d04f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d04f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_3d04f.dir/src.cxx.o -o cmTC_3d04f 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports static_assert passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ff64/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_1ff64.dir/build.make CMakeFiles/cmTC_1ff64.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_1ff64.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_1ff64.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1ff64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ff64.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_1ff64.dir/src.cxx.o -o cmTC_1ff64 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports [[deprecated]] passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a92fa/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a92fa.dir/build.make CMakeFiles/cmTC_a92fa.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_a92fa.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_a92fa.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a92fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a92fa.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_a92fa.dir/src.cxx.o -o cmTC_a92fa 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports [[deprecated("message")]] passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5a1c5/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_5a1c5.dir/build.make CMakeFiles/cmTC_5a1c5.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_5a1c5.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_5a1c5.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5a1c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a1c5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_5a1c5.dir/src.cxx.o -o cmTC_5a1c5 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports __attribute__((deprecated)) passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8e3c4/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_8e3c4.dir/build.make CMakeFiles/cmTC_8e3c4.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_8e3c4.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_8e3c4.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8e3c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e3c4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_8e3c4.dir/src.cxx.o -o cmTC_8e3c4 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+
+the compiler supports __attribute__((deprecated("message"))) passed with the following output:
+Change Dir: '/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_59161/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_59161.dir/build.make CMakeFiles/cmTC_59161.dir/build
+gmake[1] : on entre dans le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_59161.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wno-long-long -Wno-variadic-macros  -g -o CMakeFiles/cmTC_59161.dir/src.cxx.o -c /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_59161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59161.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wno-long-long -Wno-variadic-macros  -g  -Wl,--as-needed  CMakeFiles/cmTC_59161.dir/src.cxx.o -o cmTC_59161 
+gmake[1] : on quitte le répertoire « /home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/CMakeFiles/CMakeTmp »
+
+

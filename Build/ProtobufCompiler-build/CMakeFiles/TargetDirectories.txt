@@ -1,0 +1,7 @@
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/protoc.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/edit_cache.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/rebuild_cache.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/list_install_components.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/install.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/install/local.dir
+/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build/ProtobufCompiler-build/CMakeFiles/install/strip.dir

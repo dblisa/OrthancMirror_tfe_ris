@@ -1,0 +1,14 @@
+
+#define HAVE_NET_IF_H 1
+/* #undef HAVE_NET_IF_DL_H */
+#define HAVE_NETINET_IN_H 1
+#define HAVE_STDLIB_H @HAVE_STDLIB_H @
+#define HAVE_SYS_FILE_H 1
+#define HAVE_SYS_IOCTL_H 1
+#define HAVE_SYS_RESOURCE_H 1
+#define HAVE_SYS_SOCKET_H 1
+/* #undef HAVE_SYS_SOCKIO_H */
+#define HAVE_SYS_SYSCALL_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_SYS_UN_H 1
+#define HAVE_UNISTD_H 1

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE:STRING=Release;-DCMAKE_INSTALL_PREFIX=/home/linux/Documents/UCL2627/TFE_RIS/Orthanc/Build;-DTHIRD_PARTY_DOWNLOADS_ROOT_URL=https://orthanc.uclouvain.be/downloads/third-party-downloads;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
